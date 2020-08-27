@@ -26,7 +26,6 @@ include_recipe "thumbor::#{node['thumbor']['install_method']}"
 include_recipe 'thumbor::user'
 include_recipe 'thumbor::initstyle'
 include_recipe 'thumbor::config'
-include_recipe 'thumbor::pipupgrade'
 
 service 'thumbor' do
   case node['thumbor']['init_style']
