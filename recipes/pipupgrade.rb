@@ -9,7 +9,7 @@ execute 'install tornado' do
 end
 
 execute 'libgraphicsmagick++1-dev' do
-    command "sudo apt-get install libgraphicsmagick++1-dev libboost-python-dev"
+    command "sudo apt-get install libgraphicsmagick++1-dev libboost-python-dev -y"
 end
 
 execute 'graphicsmagick-engine' do
