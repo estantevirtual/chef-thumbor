@@ -12,6 +12,6 @@ end
 #    command "sudo apt-get install libgraphicsmagick++1-dev libboost-python-dev -y"
 #end
 
-execute 'graphicsmagick-engine' do
-    command "pip install graphicsmagick-engine"
-end
+#execute 'graphicsmagick-engine' do
+#    command "pip install graphicsmagick-engine"
+#end
