@@ -20,7 +20,7 @@
 #
 
 include_recipe 'apt::default'
-include_recipe 'chef::default'
+# include_recipe 'chef::default'
 include_recipe 'thumbor::dependencies'
 include_recipe "thumbor::#{node['thumbor']['install_method']}"
 include_recipe 'thumbor::user'
