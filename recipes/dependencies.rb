@@ -23,6 +23,6 @@ node['thumbor']['package_dependencies'].each do |name|
   package name
 end
 
-node['thumbor']['pip_dependencies'].each do |name|
-  python_pip name
-end
+# node['thumbor']['pip_dependencies'].each do |name|
+#   python_pip name
+# end
