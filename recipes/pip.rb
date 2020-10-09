@@ -20,7 +20,7 @@
 # limitations under the License.
 #
 
-python_pip 'thumbor' do
-  version node['thumbor']['version']
-  action :install
-end
+# python_pip 'thumbor' do
+#   version node['thumbor']['version']
+#   action :install
+# end
